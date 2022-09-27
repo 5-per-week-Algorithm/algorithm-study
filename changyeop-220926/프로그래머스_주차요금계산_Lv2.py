@@ -43,6 +43,7 @@ def solution(fees, records):
     answer.sort()
     for i in range(len(answer)):
         answer[i] = answer[i][1]
+        
     return answer
 
 fees = [180, 5000, 10, 600]
