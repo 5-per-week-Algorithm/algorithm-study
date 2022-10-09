@@ -40,7 +40,7 @@ for i in range(n):
     for j in range(m):
         for y in range(n):
             for x in range(m):
-                makeNum(i, j, y, x, '')
-                makeNum(i, j, y, -x, '')
+                makeNum(i, j, y, x, '') # 좌상우하 대각선
+                makeNum(i, j, y, -x, '') # 우상좌하 대각선
 
 print(answer)
