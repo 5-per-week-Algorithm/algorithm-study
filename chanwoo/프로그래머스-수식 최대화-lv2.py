@@ -49,8 +49,8 @@ def solution(expression):
         
         while opStack:
             popedOp = opStack.pop()
-            n1 = numStack.pop()
             n2 = numStack.pop()
+            n1 = numStack.pop()
             numStack.append(cal(n1,n2,popedOp))
         
 
