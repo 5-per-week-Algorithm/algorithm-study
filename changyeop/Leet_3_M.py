@@ -8,7 +8,6 @@ def lengthOfLongestSubstring(s: str) -> int:
             start = output.index(c)
             output = output[start+1:]
             output += c
-            print(output)
         else:
             output += c
             answer = max(answer, len(output))
