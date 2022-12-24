@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * q,u,a,c,k 에 대해 1,2,3,4,5로 저장하고 값을 보고 적절한 원소를 업데이트
  */
 
-class Main{
+class Main12933{
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
