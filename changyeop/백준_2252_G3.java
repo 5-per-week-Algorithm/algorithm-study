@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * 위상정렬로 푼다
  */
-class Main{
+class Main2252{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
